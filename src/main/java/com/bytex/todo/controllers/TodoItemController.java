@@ -1,8 +1,6 @@
 package com.bytex.todo.controllers;
 
 import com.bytex.todo.model.TodoItem;
-import com.sun.tools.javac.comp.Todo;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -11,13 +9,13 @@ import java.util.List;
 public class TodoItemController {
 
     // Use the appropriate annotation for mapping the endpoint and its arguments
-    public List<Todo> getAll(/*fill request args here*/) {
+    public List<TodoItem> getAll(/*fill request args here*/) {
         // Fill me
         return null;
     }
 
     // Use the appropriate annotation for mapping the endpoint and its arguments
-    public Todo getItem(/*fill request args here*/) {
+    public TodoItem getItem(/*fill request args here*/) {
         // Fill me
         return null;
     }
